@@ -4,7 +4,8 @@
   "description": "A Todo List which keeps track of your tasks.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/SiddhantYerandkar/MERN_STACK_ASSIGNMENT#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mongoose": "^6.8.4"
+    "mongoose": "^6.8.4",
+    "nodemon": "^2.0.20"
   }
 }
